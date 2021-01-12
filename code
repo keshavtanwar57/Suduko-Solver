@@ -80,7 +80,7 @@ int main()
             cout << " Enter Number: ";
             cin >> grid[i][j];
         }
-        cout << "\n";
+        cout << endl;
     }
 
     if (solveSuduko(grid, 0, 0))
